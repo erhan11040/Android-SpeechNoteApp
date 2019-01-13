@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_x="13dp"
+        android:layout_y="465dp"
+        android:background="#dc143c"
+        android:shadowColor="#dc143c"
+        android:text="Sil" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="113dp"
+        android:layout_height="35dp"
+        android:layout_x="264dp"
+        android:layout_y="467dp"
+        android:background="#32cd32"
+        android:shadowColor="#32cd32"
+        android:text="Güncelle" />
+</AbsoluteLayout>

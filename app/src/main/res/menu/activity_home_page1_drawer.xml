@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/note"
+            android:title="New Note" />
+        <item
+            android:id="@+id/nav_open_note"
+            android:icon="@drawable/newnote"
+            android:title="Open Note" />
+        <item
+            android:id="@+id/nav_exportfile"
+            android:icon="@drawable/exportfile"
+            android:title="Export Files to SD" />
+    </group>
+    <item android:title="Communicate">
+    <menu>
+    <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send" />
+
+
+            <item
+                android:id="@+id/nav_save"
+                android:icon="@drawable/save"
+                android:title="Save" />
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/delete"
+                android:title="Delete" />
+</menu>
+    </item>
+
+</menu>
